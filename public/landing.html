@@ -13,7 +13,7 @@
   <body id="landing">
     <div class="content">
       <div class="header flex">
-        <button type="menu" name="button" class="hamburger" aria-label="Main menu">
+        <button id="hamburgerMenu" type="menu" name="button" class="hamburger" aria-label="Main menu">
         <i class=" fas fa-bars"></i>
         </button>
         <div class="menu">
@@ -24,8 +24,10 @@
             <a href="gallery.html">&bull; The Gallery</a>
           </div>
           <img class="cake-review" src="../images/cake_review.png" alt="An image of a customer reivew that says Beautiful and delicious cakes!">
+          <button class="close" type="button" name="button" aria-controls="hamburgerMenu">
+            <i class="fas fa-times"></i>
+          </button>
         </div>
-        <i class="close fas fa-times"></i>
         <a href="landing.html">
           <h2 class="logo"><img src="../images/cake_logo.png" alt="The custom cakery logo"></h2>
         </a>
