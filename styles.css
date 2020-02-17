@@ -87,6 +87,16 @@ h4 {
   margin-bottom: 65px;
 }
 
+.header a h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a h1 img {
+  position:absolute;
+}
+
 .hamburger {
   position: absolute;
   top: 10px;

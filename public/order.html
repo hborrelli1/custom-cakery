@@ -17,9 +17,9 @@
       </button>
       <div class="modal-content">
        <h3>Want to Save 10% on Your First Cake Purchase?! Enter your email here, and join the cake club!</h3>
-        <div class="input">
+        <label class="input">
           <input class="modal-email-field" type="text" >
-        </div>
+        </label>
         <div>
           <button class="margin-top--small modal-button" aria-label="Join the Custom Cakery email list">JOIN THE CAKE CLUB!</button>
         </div>
@@ -43,7 +43,7 @@
           </button>
         </div>
         <a href="landing.html">
-          <h2 class="logo"><img src="../images/cake_logo.png" alt="The Custom Cakery Logo"></h2>
+          <h1 class="logo"><img src="../images/cake_logo.png" alt="The custom cakery logo">The Custom Cakery</h1>
         </a>
       </div>
       <form>
@@ -65,45 +65,59 @@
           <label><input type="radio" name="cake">1 Dozen Cupcakes</label>
           <label><input type="radio" name="cake">Other</label>
         </fieldset>
-        <div>Cake Shape (excludes cupcakes)</div>
-        <label><input type="radio" name="shape">Circle</label>
-        <label><input type="radio" name="shape">Square</label>
-        <label><input type="radio" name="shape">Rectangle</label>
-        <label><input type="radio" name="shape">Other</label>
-        <div>Do You Want Writing?</div>
-        <label><input type="radio" name="words">Yes</label>
-        <label><input type="radio" name="words">No</label>
-        <label for="cakeText">If you selected "writing," please indicate text here: </label>
-        <input id="cakeText" type="text" placeholder="cake text">
-        <div>Flavor(s)</div>
-        <label><input type="checkbox" value="chocolate">Chocolate</label>
-        <label><input type="checkbox" value="vanilla">Vanilla</label>
-        <label><input type="checkbox" value="fruit">Fruit</label>
-        <label><input type="checkbox" value="other">Other</label>
-        <div>Filling(s)</div>
-        <label><input type="checkbox" value="vanilla">Vanilla</label>
-        <label><input type="checkbox" value="chocolate">Chocolate</label>
-        <label><input type="checkbox" value="fruit">Fruit</label>
-        <label><input type="checkbox" value="other">Other</label>
-        <div>Frosting(s)</div>
-        <label><input type="checkbox" value="fruit">Fruit</label>
-        <label><input type="checkbox" value="chocolate">Chocolate</label>
-        <label><input type="checkbox" value="vanilla">Vanilla</label>
-        <label><input type="checkbox" value="other">Other</label>
-        <div>Topping(s)</div>
-        <label><input type="checkbox" value="chocolate">Chocolate Shavings</label>
-        <label><input type="checkbox" value="vanilla">Sprinkles</label>
-        <label><input type="checkbox" value="fruit">Fruit</label>
-        <label><input type="checkbox" value="other">Other</label>
-        <label for="numberOfPeople">Approx. How Many People Should Cake Feed?</label>
-        <select name="select" id="numberOfPeople">
-          <option value="1-10">1 - 10</option>
-          <option value="10-20">10 - 20</option>
-          <option value="10-20">20 - 30</option>
-          <option value="10-20">30 - 40</option>
-          <option value="40-50">40 - 50</option>
-          <option value="50+">50+</option>
-        </select>
+        <fieldset>
+          <legend>Cake Shape (excludes cupcakes)</legend>
+          <label><input type="radio" name="shape">Circle</label>
+          <label><input type="radio" name="shape">Square</label>
+          <label><input type="radio" name="shape">Rectangle</label>
+          <label><input type="radio" name="shape">Other</label>
+        </fieldset>
+        <fieldset>
+          <legend>Do You Want Writing?</legend>
+          <label><input type="radio" name="words">Yes</label>
+          <label><input type="radio" name="words">No</label>
+          <label for="cakeText">If you selected "writing," please indicate text here: </label>
+          <input id="cakeText" type="text" placeholder="cake text">
+        </fieldset>
+        <fieldset>
+          <legend >Flavor(s)</legend>
+          <label><input type="checkbox" value="chocolate">Chocolate</label>
+          <label><input type="checkbox" value="vanilla">Vanilla</label>
+          <label><input type="checkbox" value="fruit">Fruit</label>
+          <label><input type="checkbox" value="other">Other</label>
+        </fieldset>
+        <fieldset>
+          <legend>Filling(s)</legend>
+          <label><input type="checkbox" value="vanilla">Vanilla</label>
+          <label><input type="checkbox" value="chocolate">Chocolate</label>
+          <label><input type="checkbox" value="fruit">Fruit</label>
+          <label><input type="checkbox" value="other">Other</label>
+        </fieldset>
+        <fieldset>
+          <legend>Frosting(s)</legend>
+          <label><input type="checkbox" value="fruit">Fruit</label>
+          <label><input type="checkbox" value="chocolate">Chocolate</label>
+          <label><input type="checkbox" value="vanilla">Vanilla</label>
+          <label><input type="checkbox" value="other">Other</label>
+        </fieldset>
+        <fieldset>
+          <legend>Topping(s)</legend>
+          <label><input type="checkbox" value="chocolate">Chocolate Shavings</label>
+          <label><input type="checkbox" value="vanilla">Sprinkles</label>
+          <label><input type="checkbox" value="fruit">Fruit</label>
+          <label><input type="checkbox" value="other">Other</label>
+        </fieldset>
+        <fieldset>
+          <label for="numberOfPeople">Approx. How Many People Should Cake Feed?</label>
+          <select name="select" id="numberOfPeople">
+            <option value="1-10">1 - 10</option>
+            <option value="10-20">10 - 20</option>
+            <option value="10-20">20 - 30</option>
+            <option value="10-20">30 - 40</option>
+            <option value="40-50">40 - 50</option>
+            <option value="50+">50+</option>
+          </select>
+        </fieldset>
         <label>
           <textarea name="" id="otherText" cols="30" rows="10">Please Provide Details if Selected "Other" Anywhere on Form</textarea>
         </label>
