@@ -44,7 +44,7 @@ input[type="text"], input[type="number"], textarea {
 }
 
 input:focus {
-  outline: none!important;
+  /* outline: none!important; */
 }
 
 button {
