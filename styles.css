@@ -1,7 +1,7 @@
 /********************************* NATIVE ELS & GENERAL STYLES *********************************/
 
 html, body {
-  color: #576574;
+  color: #000;
   font-size: 14px;
   margin: 0;
   font-family: 'Josefin Slab', serif;
@@ -22,16 +22,16 @@ body.modal-active::after {
 }
 
 a {
-  color: #576574;
+  color: #000;
   text-decoration: none;
 }
 
 a:focus {
-  outline: none !important;
+  /* outline: none !important; */
 }
 
 form {
-  background-color: rgba(255, 255, 255, .7);
+  background-color: #fff;
   margin-bottom: 25px;
   padding: 25px;
   width: 600px;
@@ -40,6 +40,7 @@ form {
 
 input[type="text"], input[type="number"], textarea {
   width: 100%;
+  margin-bottom:10px;
 }
 
 input:focus {
@@ -90,6 +91,7 @@ h4 {
   position: absolute;
   top: 10px;
   left: 10px;
+  color:#fff;
 }
 
 .close {
